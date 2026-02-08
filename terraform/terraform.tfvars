@@ -1,0 +1,11 @@
+region      = "us-east-1"
+auth_image  = "gabriee7/auth-microservice-market:latest"
+user_image  = "gabriee7/user-microservice-market:latest"
+venda_image = "gabriee7/market-list-service:latest"
+db_username = "admin"
+db_password = "admin123"
+db_port     = 3306
+db_name     = "market"
+db_admin_cidrs = ["0.0.0.0/0"]
+jwt_secret  = "bcdc3ddc13b516672e8efccb94e41f052aa5c08c3c516b398ebfbb1326780bb0"
+jwt_expiry  = "1h"
