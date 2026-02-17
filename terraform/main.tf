@@ -157,6 +157,7 @@ module "ecs_auth" {
     DB_NAME    = var.db_name
     JWT_SECRET = var.jwt_secret
     JWT_EXPIRY = var.jwt_expiry
+    BASE_PATH  = var.base_path_auth
   }
 }
 
@@ -180,6 +181,7 @@ module "ecs_user" {
     DB_NAME    = var.db_name
     JWT_SECRET = var.jwt_secret
     JWT_EXPIRY = var.jwt_expiry
+    BASE_PATH  = var.base_path_user
   }
 }
 
@@ -203,5 +205,6 @@ module "ecs_venda" {
     DB_NAME    = var.db_name
     JWT_SECRET = var.jwt_secret
     JWT_EXPIRY = var.jwt_expiry
+    BASE_PATH  = var.base_path_venda
   }
 }

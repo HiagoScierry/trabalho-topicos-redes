@@ -60,3 +60,21 @@ variable "jwt_expiry" {
   type        = string
   default     = "1h"
 }
+
+variable "base_path_auth" {
+  type        = string
+  default     = "/auth"
+  description = "Base path for the authentication service"
+}
+
+variable "base_path_user" {
+  type        = string
+  default     = "/user"
+  description = "Base path for the user service"
+}
+
+variable "base_path_venda" {
+  type        = string
+  default     = "/venda"
+  description = "Base path for the venda service"
+}
